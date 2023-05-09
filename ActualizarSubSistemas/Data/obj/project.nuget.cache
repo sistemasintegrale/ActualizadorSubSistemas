@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qTQu6un/uzMrJDsVNjkEoxaxEiDxoffSJqpovDHc2yCBiEze2xZpekoaqRkiX4LTWeY0RNXjyV7Vpgzu/inOPg==",
+  "dgSpecHash": "n8GCHkN5JREJF/BP0LqV5y27NvH84DfPJ7Ob+uk9ZjimBECe0cYBGcrFtEmFow1Rezje+aSqtDVqbO8Pcc4B8g==",
   "success": true,
-  "projectFilePath": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Data\\Data.csproj",
+  "projectFilePath": "D:\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ROBERTO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ROBERTO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

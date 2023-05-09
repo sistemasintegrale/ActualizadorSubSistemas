@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9bQf40j0RGmHOnAHNphP2AYrSPQbwzBNi+Nr2gcfsEBezQYindcHOTbLyqpoKUHpRrO5vAXHkiBcFpPLCe/DZA==",
+  "dgSpecHash": "oHoHf5hx8GP/cZVFfHUqR8QY137uZeu1HKQksUPnGbRo/33PklvCIUlZwKXOeo5jbE4kpRf7RnIauBPwV7yPlQ==",
   "success": true,
-  "projectFilePath": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Logic\\Logic.csproj",
+  "projectFilePath": "D:\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Logic\\Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ROBERTO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ROBERTO\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

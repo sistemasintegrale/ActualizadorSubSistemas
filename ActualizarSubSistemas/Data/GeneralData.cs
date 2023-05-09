@@ -124,7 +124,7 @@ namespace Data
                         lista.Add(new Equipo()
                         {
                             Id = Convert.ToInt32(reader["Id"]),
-                            Nombre = reader["Nombre"].ToString(),
+                            Nombre =  reader["Nombre"].ToString(),
                             Cpu = reader["Cpu"].ToString(),
                             UbicacionActualizador = reader["UbicacionActualizador"].ToString(),
                             NombreUsuario = reader["NombreUsuario"].ToString()

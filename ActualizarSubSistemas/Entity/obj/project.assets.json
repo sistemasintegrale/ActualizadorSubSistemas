@@ -2131,11 +2131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Entity\\Entity.csproj",
+      "projectUniqueName": "D:\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Entity\\Entity.csproj",
+      "projectPath": "D:\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\ROBERTO\\.nuget\\packages\\",
-      "outputPath": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Entity\\obj\\",
+      "outputPath": "D:\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2158,8 +2158,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Common.csproj": {
-              "projectPath": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Common.csproj"
+            "D:\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Common.csproj": {
+              "projectPath": "D:\\ACTUALIZADORSUBSISTEMAS\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Common.csproj"
             }
           }
         }

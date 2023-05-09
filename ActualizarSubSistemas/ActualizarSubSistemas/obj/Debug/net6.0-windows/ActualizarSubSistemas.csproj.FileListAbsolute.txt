@@ -1,11 +1,4 @@
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.csproj.AssemblyReference.cache
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.FrmLogin.resources
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.FrmPasos.resources
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.csproj.GenerateResource.cache
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.GeneratedMSBuildEditorConfig.editorconfig
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.AssemblyInfoInputs.cache
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.AssemblyInfo.cs
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.csproj.CoreCompileInputs.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\ActualizarSubSistemas.exe
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\ActualizarSubSistemas.deps.json
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\ActualizarSubSistemas.runtimeconfig.json
@@ -36,7 +29,6 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\System.Linq.Dynamic.Core.dll
@@ -58,6 +50,14 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\Data.pdb
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\Entity.pdb
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\bin\Debug\net6.0-windows\Logic.pdb
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.csproj.AssemblyReference.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.FrmLogin.resources
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.FrmPasos.resources
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.csproj.GenerateResource.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.AssemblyInfoInputs.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.AssemblyInfo.cs
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.csproj.CoreCompileInputs.cache
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.csproj.CopyComplete
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\ActualizarSubSistemas.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\ActualizarSubSistemas\obj\Debug\net6.0-windows\refint\ActualizarSubSistemas.dll

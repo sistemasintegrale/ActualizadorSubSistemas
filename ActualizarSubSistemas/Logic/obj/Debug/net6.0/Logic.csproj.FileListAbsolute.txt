@@ -17,3 +17,22 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\refint\Logic.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\Logic.pdb
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\ref\Logic.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\bin\Debug\net6.0\Logic.deps.json
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\bin\Debug\net6.0\Logic.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\bin\Debug\net6.0\Logic.pdb
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\bin\Debug\net6.0\Common.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\bin\Debug\net6.0\Data.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\bin\Debug\net6.0\Entity.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\bin\Debug\net6.0\Common.pdb
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\bin\Debug\net6.0\Data.pdb
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\bin\Debug\net6.0\Entity.pdb
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\Logic.csproj.AssemblyReference.cache
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\Logic.AssemblyInfoInputs.cache
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\Logic.AssemblyInfo.cs
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\Logic.csproj.CoreCompileInputs.cache
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\Logic.csproj.CopyComplete
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\Logic.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\refint\Logic.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\Logic.pdb
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\obj\Debug\net6.0\ref\Logic.dll

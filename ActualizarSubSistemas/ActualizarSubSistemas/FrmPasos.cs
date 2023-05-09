@@ -36,14 +36,13 @@ namespace ActualizarSubSistemas
         int instalado = 1;
         int actualizando = 2;
         string pathArchivoRar = string.Empty;
-        private WebClient cliente;
+        private WebClient cliente= new WebClient();
         public FrmPasos()
         {
             InitializeComponent();
             bGeneral = new BGeneral();
             ObtenerNombreEquipo();
-            idCpu = GetICPU.get();
-            cliente = new WebClient();
+            idCpu = GetICPU.get(); 
             cliente.DownloadFileCompleted += new AsyncCompletedEventHandler(cargado);
             cliente.DownloadProgressChanged += new DownloadProgressChangedEventHandler(cargando);
         }

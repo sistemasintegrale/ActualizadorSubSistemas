@@ -1,0 +1,38 @@
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Data.deps.json
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Data.runtimeconfig.json
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Data.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Data.pdb
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Common.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Entity.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Common.pdb
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Entity.pdb
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.csproj.AssemblyReference.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.AssemblyInfoInputs.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.AssemblyInfo.cs
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.csproj.CoreCompileInputs.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.csproj.CopyComplete
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\refint\Data.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.pdb
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.genruntimeconfig.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\ref\Data.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Data.deps.json
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Data.runtimeconfig.json
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Data.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Data.pdb
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Common.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Entity.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Common.pdb
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\bin\Release\net6.0\Entity.pdb
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.csproj.AssemblyReference.cache
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.AssemblyInfoInputs.cache
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.AssemblyInfo.cs
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.csproj.CoreCompileInputs.cache
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.csproj.CopyComplete
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\refint\Data.dll
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.pdb
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\Data.genruntimeconfig.cache
+D:\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\obj\Release\net6.0\ref\Data.dll
