@@ -1,0 +1,17 @@
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\bin\Debug\net6.0\Entity.deps.json
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\bin\Debug\net6.0\Entity.runtimeconfig.json
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\bin\Debug\net6.0\Entity.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\bin\Debug\net6.0\Entity.pdb
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\bin\Debug\net6.0\Common.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\bin\Debug\net6.0\Common.pdb
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\Entity.csproj.AssemblyReference.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\Entity.AssemblyInfoInputs.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\Entity.AssemblyInfo.cs
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\Entity.csproj.CoreCompileInputs.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\Entity.csproj.CopyComplete
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\Entity.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\refint\Entity.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\Entity.pdb
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\Entity.genruntimeconfig.cache
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\obj\Debug\net6.0\ref\Entity.dll
