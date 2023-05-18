@@ -75,6 +75,7 @@ namespace ActualizarSubSistemas
                 Process procesoExtaccion = new Process();
                 ProcessStartInfo informacionProcceso = new ProcessStartInfo();
                 informacionProcceso.FileName = @"C:\Program Files\WinRAR\WinRAR.exe";
+                
                 informacionProcceso.Arguments = "x " + FormatoDoleComilal(pathArchivoRar) + " " + FormatoDoleComilal(pathSistema);
                 procesoExtaccion.StartInfo = informacionProcceso;
                 procesoExtaccion.Start();
@@ -153,7 +154,8 @@ namespace ActualizarSubSistemas
         public void SeleccionarSubSistema()
         {
             //Cargamos los Sistemas
-            BSControls.Guna2Combo(lkpSistema, bGeneral.SistemaListar(), "Name", "Id", true);
+            var sistema = bGeneral.SistemaListar();
+            BSControls.Guna2Combo(lkpSistema, sistema, "Nombre", "Id", true);
             tabControl.SelectedIndex = Constantes.tabSubsistema;
         }
 
@@ -190,7 +192,7 @@ namespace ActualizarSubSistemas
                         equiposSubSistema.equipo.Nombre = NombreEquipo;
                         equiposSubSistema.equipo.Cpu = idCpu;
                         equiposSubSistema.IdSubSistema = Constantes.SubSistema;
-                        bGeneral.InsertarEquipoSubSistema(equiposSubSistema);
+                        bGeneral.Equipo_Ingresar(NombreEquipo, idCpu);
                     }
 
                     verificarEquipo();
@@ -204,7 +206,7 @@ namespace ActualizarSubSistemas
                         equiposSubSistema.equipo.Nombre = NombreEquipo;
                         equiposSubSistema.equipo.Cpu = idCpu;
                         equiposSubSistema.IdSubSistema = Constantes.SubSistema;
-                        bGeneral.InsertarEquipoSubSistema(equiposSubSistema);
+                        bGeneral.Equipo_Ingresar(NombreEquipo, idCpu);
                     }
 
                     Application.Exit();
@@ -214,7 +216,7 @@ namespace ActualizarSubSistemas
             {
 
                 pathCarpetaPrincipal = @"C:\\Publish-" + GeneratePathSistema.GeneratePath(Constantes.Connection);
-                pathSistema = pathCarpetaPrincipal + @"\" + equiposSubSistema.subSistema.Sistema.Nombre;
+                pathSistema = pathCarpetaPrincipal + @"\" + equiposSubSistema.Sistema.Nombre;
                 if (!Directory.Exists(pathCarpetaPrincipal))
                     Directory.CreateDirectory(pathCarpetaPrincipal);
                 if (!Directory.Exists(pathSistema))
@@ -232,7 +234,7 @@ namespace ActualizarSubSistemas
         {
             tabControl.SelectedIndex = Constantes.tabInstalar;
             indicador = instalado;
-            subSistema = bGeneral.SubSistemaListar().OrderByDescending(x => x.Fecha).FirstOrDefault()!;
+            subSistema = bGeneral.SubSistemaListar().Where(x=>x.IdSistema == Constantes.SubSistema).ToList().OrderByDescending(x => x.Fecha).FirstOrDefault()!;
             pathArchivoRar = pathSistema + @"\" + subSistema.Nombre + ".zip";
             cliente.DownloadFileAsync(new Uri(subSistema.Link), pathArchivoRar);
         }

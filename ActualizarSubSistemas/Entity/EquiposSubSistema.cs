@@ -14,9 +14,7 @@ namespace Entity
         public SubSistema subSistema = new SubSistema();
         public DateTime FechaActualizacion { get; set; }
         public bool Acceso { get; set; }
-    
-
-
-
+        public int IdSistema { get; set; }
+        public Sistema Sistema  = new Sistema();
     }
 }

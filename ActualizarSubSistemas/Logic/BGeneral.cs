@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
+using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,13 +24,12 @@ namespace Logic
         public EquiposSubSistema Equipo_Obtner_Datos(string nombreEquipo, string idCpu, int idSubSistema)
         {
             EquiposSubSistema equiposSubSistema = new EquiposSubSistema();
-            var equipo = generalData.EquipoListar().Where(x => x.Nombre == nombreEquipo && x.Cpu == idCpu).FirstOrDefault();
-            if (equipo is not null)
+            var equipo = new GeneralData().EquipoListar().Where(x => x.Nombre == nombreEquipo && x.Cpu == idCpu).FirstOrDefault();
+            if (equipo != null)
             {
-                equiposSubSistema = generalData.EquipoSubSistemaListar().Where(x => x.IdEquipo == equipo.Id && x.IdSubSistema == idSubSistema).First();
+                equiposSubSistema = new GeneralData().EquipoSubSistemaListar().Where(x => x.IdEquipo == equipo.Id && x.IdSistema == idSubSistema).FirstOrDefault();
+                equiposSubSistema.Sistema = new GeneralData().SistemaListar().Where(x => x.Id == idSubSistema).FirstOrDefault();
                 equiposSubSistema.equipo = equipo;
-                equiposSubSistema.subSistema = generalData.SubSistemaListar().Where(x => x.Id == idSubSistema).FirstOrDefault()!;
-
             }
 
             return equiposSubSistema;
@@ -103,6 +103,52 @@ namespace Logic
         public List<Sistema> SistemaListar()
         {
             return generalData.SistemaListar();
+        }
+
+        public List<Equipo> EquipoListar()
+        {
+            return generalData.EquipoListar();
+        }
+
+        public void SistemaIngresar(Sistema sistema)
+        {
+            generalData.SistemaIngresar(sistema);
+        }
+
+        public int SubSistemaIngresar(SubSistema subSistema)
+        {
+            return generalData.SubSistemaIngresar(subSistema);
+        }
+
+        public void SubSistemaModificar(SubSistema subSistema)
+        {
+            generalData.SubSistemaModificar(subSistema);
+        }
+
+        public void SistemaModificar(Sistema sistema)
+        {
+            generalData.SistemaModificar(sistema);
+        }
+
+        public void Equipo_Ingresar(string nombreEquipo, string idCpu)
+        {
+            var equipo = new Equipo()
+            {
+                Nombre = nombreEquipo,
+                Cpu = idCpu,
+                UbicacionActualizador = string.Empty,
+                Id = 0,
+                NombreUsuario = string.Empty
+            };
+            equipo.Id = new GeneralData().EquipoIngresar(equipo);
+            var equipoSubSistema = new EquiposSubSistema()
+            {
+                IdEquipo = equipo.Id,
+                IdSubSistema = Constantes.SubSistema,//Punto de Venta
+                FechaActualizacion = DateTime.Now,
+                Acceso = false
+            };
+            new GeneralData().EquipoSubSistemaIngresar(equipoSubSistema);
         }
     }
 }

@@ -124,7 +124,7 @@ namespace Data
                         lista.Add(new Equipo()
                         {
                             Id = Convert.ToInt32(reader["Id"]),
-                            Nombre =  reader["Nombre"].ToString(),
+                            Nombre = reader["Nombre"].ToString(),
                             Cpu = reader["Cpu"].ToString(),
                             UbicacionActualizador = reader["UbicacionActualizador"].ToString(),
                             NombreUsuario = reader["NombreUsuario"].ToString()
@@ -172,10 +172,11 @@ namespace Data
             {
                 using (SqlConnection con = new SqlConnection(Conneccion.GetConexion()))
                 {
+                    con.Open();
                     SqlCommand cm = new SqlCommand("SISTEMA_MODIFICAR", con);
                     cm.Parameters.AddWithValue("@Id", sistema.Id);
                     cm.Parameters.AddWithValue("@Nombre", sistema.Nombre);
-                    con.Open();
+                    cm.CommandType = CommandType.StoredProcedure;
                     cm.ExecuteNonQuery();
 
 
@@ -373,14 +374,15 @@ namespace Data
                     SqlDataReader reader = cm.ExecuteReader();
                     while (reader.Read())
                     {
-                        lista.Add(new EquiposSubSistema()
-                        {
-                            IdEquipo = Convert.ToInt32(reader["IdEquipo"]),
-                            IdSubSistema = Convert.ToInt32(reader["IdSubSistema"]),
-                            FechaActualizacion = Convert.ToDateTime(reader["FechaActualizacion"]),
-                            Acceso = Convert.ToBoolean(reader["Acceso"]),
+                        var data = new EquiposSubSistema();
 
-                        });
+                        data.IdEquipo = Convert.ToInt32(reader["IdEquipo"]);
+                        var dt = reader["IdSubSistema"].ToString();
+                        data.IdSubSistema = string.IsNullOrEmpty(dt) ? 0 : Convert.ToInt32(dt);
+                        data.FechaActualizacion = Convert.ToDateTime(reader["FechaActualizacion"]);
+                        data.Acceso = Convert.ToBoolean(reader["Acceso"]);
+                        data.IdSistema = Convert.ToInt32(reader["IdSistema"]);
+                        lista.Add(data);
                     }
 
 

@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.tabControl = new Guna.UI2.WinForms.Guna2TabControl();
@@ -81,7 +81,7 @@
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(842, 203);
+            this.tabControl.Size = new System.Drawing.Size(570, 203);
             this.tabControl.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.tabControl.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
             this.tabControl.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -110,7 +110,7 @@
             this.tabSeleccionar.Location = new System.Drawing.Point(4, 4);
             this.tabSeleccionar.Name = "tabSeleccionar";
             this.tabSeleccionar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSeleccionar.Size = new System.Drawing.Size(834, 155);
+            this.tabSeleccionar.Size = new System.Drawing.Size(445, 115);
             this.tabSeleccionar.TabIndex = 0;
             this.tabSeleccionar.Text = "Selecc";
             this.tabSeleccionar.UseVisualStyleBackColor = true;
@@ -120,7 +120,7 @@
             this.btnSeleccionarSistema.Animated = true;
             this.btnSeleccionarSistema.AnimatedGIF = true;
             this.btnSeleccionarSistema.BorderRadius = 5;
-            this.btnSeleccionarSistema.CustomizableEdges = customizableEdges9;
+            this.btnSeleccionarSistema.CustomizableEdges = customizableEdges1;
             this.btnSeleccionarSistema.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSeleccionarSistema.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSeleccionarSistema.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -130,7 +130,7 @@
             this.btnSeleccionarSistema.ForeColor = System.Drawing.Color.White;
             this.btnSeleccionarSistema.Location = new System.Drawing.Point(175, 125);
             this.btnSeleccionarSistema.Name = "btnSeleccionarSistema";
-            this.btnSeleccionarSistema.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            this.btnSeleccionarSistema.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.btnSeleccionarSistema.Size = new System.Drawing.Size(161, 32);
             this.btnSeleccionarSistema.TabIndex = 3;
             this.btnSeleccionarSistema.Text = "Aceptar";
@@ -140,7 +140,7 @@
             // 
             this.lkpEmpresa.BackColor = System.Drawing.Color.Transparent;
             this.lkpEmpresa.BorderRadius = 5;
-            this.lkpEmpresa.CustomizableEdges = customizableEdges11;
+            this.lkpEmpresa.CustomizableEdges = customizableEdges3;
             this.lkpEmpresa.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.lkpEmpresa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.lkpEmpresa.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -150,7 +150,7 @@
             this.lkpEmpresa.ItemHeight = 30;
             this.lkpEmpresa.Location = new System.Drawing.Point(118, 71);
             this.lkpEmpresa.Name = "lkpEmpresa";
-            this.lkpEmpresa.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            this.lkpEmpresa.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.lkpEmpresa.Size = new System.Drawing.Size(264, 36);
             this.lkpEmpresa.TabIndex = 1;
             // 
@@ -174,7 +174,7 @@
             this.tabSubSistema.Controls.Add(this.metroLabel4);
             this.tabSubSistema.Location = new System.Drawing.Point(4, 4);
             this.tabSubSistema.Name = "tabSubSistema";
-            this.tabSubSistema.Size = new System.Drawing.Size(834, 155);
+            this.tabSubSistema.Size = new System.Drawing.Size(562, 115);
             this.tabSubSistema.TabIndex = 3;
             this.tabSubSistema.Text = "seleccSub";
             this.tabSubSistema.UseVisualStyleBackColor = true;
@@ -183,7 +183,7 @@
             // 
             this.lkpSistema.BackColor = System.Drawing.Color.Transparent;
             this.lkpSistema.BorderRadius = 5;
-            this.lkpSistema.CustomizableEdges = customizableEdges13;
+            this.lkpSistema.CustomizableEdges = customizableEdges5;
             this.lkpSistema.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.lkpSistema.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.lkpSistema.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -193,7 +193,7 @@
             this.lkpSistema.ItemHeight = 30;
             this.lkpSistema.Location = new System.Drawing.Point(143, 66);
             this.lkpSistema.Name = "lkpSistema";
-            this.lkpSistema.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            this.lkpSistema.ShadowDecoration.CustomizableEdges = customizableEdges6;
             this.lkpSistema.Size = new System.Drawing.Size(205, 36);
             this.lkpSistema.TabIndex = 6;
             // 
@@ -202,7 +202,7 @@
             this.btnSeleccionarSubSistema.Animated = true;
             this.btnSeleccionarSubSistema.AnimatedGIF = true;
             this.btnSeleccionarSubSistema.BorderRadius = 5;
-            this.btnSeleccionarSubSistema.CustomizableEdges = customizableEdges15;
+            this.btnSeleccionarSubSistema.CustomizableEdges = customizableEdges7;
             this.btnSeleccionarSubSistema.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSeleccionarSubSistema.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSeleccionarSubSistema.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -212,7 +212,7 @@
             this.btnSeleccionarSubSistema.ForeColor = System.Drawing.Color.White;
             this.btnSeleccionarSubSistema.Location = new System.Drawing.Point(163, 120);
             this.btnSeleccionarSubSistema.Name = "btnSeleccionarSubSistema";
-            this.btnSeleccionarSubSistema.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            this.btnSeleccionarSubSistema.ShadowDecoration.CustomizableEdges = customizableEdges8;
             this.btnSeleccionarSubSistema.Size = new System.Drawing.Size(161, 32);
             this.btnSeleccionarSubSistema.TabIndex = 5;
             this.btnSeleccionarSubSistema.Text = "Aceptar";
@@ -238,7 +238,7 @@
             this.tabInstalar.Location = new System.Drawing.Point(4, 4);
             this.tabInstalar.Name = "tabInstalar";
             this.tabInstalar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabInstalar.Size = new System.Drawing.Size(834, 155);
+            this.tabInstalar.Size = new System.Drawing.Size(562, 115);
             this.tabInstalar.TabIndex = 1;
             this.tabInstalar.Text = "Instal";
             this.tabInstalar.UseVisualStyleBackColor = true;
@@ -269,7 +269,7 @@
             this.tabActualizar.Controls.Add(this.barActualizar);
             this.tabActualizar.Location = new System.Drawing.Point(4, 4);
             this.tabActualizar.Name = "tabActualizar";
-            this.tabActualizar.Size = new System.Drawing.Size(834, 155);
+            this.tabActualizar.Size = new System.Drawing.Size(562, 115);
             this.tabActualizar.TabIndex = 2;
             this.tabActualizar.Text = "Actualz";
             this.tabActualizar.UseVisualStyleBackColor = true;
@@ -298,7 +298,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(842, 203);
+            this.ClientSize = new System.Drawing.Size(570, 203);
             this.Controls.Add(this.tabControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmPasos";
