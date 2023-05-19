@@ -348,6 +348,7 @@ namespace Data
                     cm.Parameters.AddWithValue("@IdSubSistema", equiposSubSistema.IdSubSistema);
                     cm.Parameters.AddWithValue("@Acceso", equiposSubSistema.Acceso);
                     cm.Parameters.AddWithValue("@FechaActualizacion", equiposSubSistema.FechaActualizacion);
+                    cm.Parameters.AddWithValue("@IdSistema", equiposSubSistema.IdSistema);
                     cm.CommandType = CommandType.StoredProcedure;
                     con.Open();
                     cm.ExecuteNonQuery();
