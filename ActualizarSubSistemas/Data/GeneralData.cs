@@ -343,10 +343,9 @@ namespace Data
             {
                 using (SqlConnection con = new SqlConnection(Conneccion.GetConexion()))
                 {
-                    SqlCommand cm = new SqlCommand("EQUIPO_SUB_SISTEMA_MODIFICAR", con);
+                    SqlCommand cm = new SqlCommand("EQUIPO_SUB_SISTEMA_MODIFICAR_ACCESO", con);
                     cm.Parameters.AddWithValue("@IdEquipo", equiposSubSistema.IdEquipo);
-                    cm.Parameters.AddWithValue("@IdSubSistema", equiposSubSistema.IdSubSistema);
-                    cm.Parameters.AddWithValue("@FechaActualizacion", equiposSubSistema.FechaActualizacion);
+                    cm.Parameters.AddWithValue("@IdSistema", equiposSubSistema.IdSistema);
                     cm.Parameters.AddWithValue("@Acceso", equiposSubSistema.Acceso);
                     cm.CommandType = CommandType.StoredProcedure;
                     con.Open();

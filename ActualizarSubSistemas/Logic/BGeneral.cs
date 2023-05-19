@@ -140,7 +140,7 @@ namespace Logic
                 Id = 0,
                 NombreUsuario = string.Empty
             };
-            equipo.Id = new GeneralData().EquipoIngresar(equipo);
+            equipo.Id = generalData.EquipoIngresar(equipo);
             var equipoSubSistema = new EquiposSubSistema()
             {
                 IdEquipo = equipo.Id,
@@ -148,7 +148,18 @@ namespace Logic
                 FechaActualizacion = DateTime.Now,
                 Acceso = false
             };
-            new GeneralData().EquipoSubSistemaIngresar(equipoSubSistema);
+            generalData.EquipoSubSistemaIngresar(equipoSubSistema);
+        }
+
+        public List<EquiposSubSistema> EquipoSubSistemaListar()
+        {            
+            var lista = generalData.EquipoSubSistemaListar();
+            return lista;
+        }
+
+        public void EquipoModificar(Equipo equipo)
+        {
+            generalData.EquipoModificar(equipo);
         }
     }
 }

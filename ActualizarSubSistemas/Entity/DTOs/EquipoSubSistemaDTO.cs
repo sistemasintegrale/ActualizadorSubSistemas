@@ -8,9 +8,10 @@ namespace Entity.DTOs
 {
     public class EquipoSubSistemaDTO
     {
-        public int IdEquipo { get; set; }       
-        public int IdSubSistema { get; set; }
+  
+        public int IdSistema { get; set; }
         public DateTime FechaActualizacion { get; set; }
         public bool Acceso { get; set; }
+        public string nombreSistema { get; set; } = null!;
     }
 }
