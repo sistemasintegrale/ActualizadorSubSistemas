@@ -37,6 +37,7 @@ namespace ActualizarSubSistemas
         int actualizando = 2;
         string pathArchivoRar = string.Empty;
         private WebClient cliente= new WebClient();
+        public bool Actualizacion= false;
         public FrmPasos()
         {
             InitializeComponent();
@@ -115,15 +116,24 @@ namespace ActualizarSubSistemas
         }
         private void FrmPasos_Load(object sender, EventArgs e)
         {
-            if (Constantes.conneciones.Count == 1) // CUANDO EL USUARIO SOLO PERTENESE A UNA EMPRESA
+            if (Actualizacion)
             {
-                Constantes.Connection = Constantes.conneciones.First();
-                SeleccionarSubSistema();
+                ObtenerNombreEquipo();
+                verificarEquipo();
             }
-            else// CUANDO EL USUARIO SOLO PERTENESE A MAS DE UNA EMPRESA
+            if (!Actualizacion)
             {
-                SeleccionarSistema();
+                if (Constantes.conneciones.Count == 1) // CUANDO EL USUARIO SOLO PERTENESE A UNA EMPRESA
+                {
+                    Constantes.Connection = Constantes.conneciones.First();
+                    SeleccionarSubSistema();
+                }
+                else// CUANDO EL USUARIO SOLO PERTENESE A MAS DE UNA EMPRESA
+                {
+                    SeleccionarSistema();
+                }
             }
+            
         }
         public void SeleccionarSistema()
         {

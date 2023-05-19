@@ -22,20 +22,60 @@ namespace ActualizarSubSistemas
         }
         private void FrmLogin_Load(object sender, EventArgs e)
         {
-            for (int i = 1; i <= Constantes.TotalConecciones; i++)
-            {
-                Constantes.Connection = i;
-                var lista = bGeneral.listarUsuarios();
-                lista.ForEach((data) =>
-                {
-                    data.connection = i;
 
-                });
-                usuarios.AddRange(lista);
+            if (!VerificarSiEsUnaActualizacion())
+            {
+                for (int i = 1; i <= Constantes.TotalConecciones; i++)
+                {
+                    Constantes.Connection = i;
+                    var lista = bGeneral.listarUsuarios();
+                    lista.ForEach((data) =>
+                    {
+                        data.connection = i;
+
+                    });
+                    usuarios.AddRange(lista);
+                }
             }
+            else
+            {
+                this.Hide();
+                FrmPasos frm = new FrmPasos();
+                frm.Actualizacion = true;
+                frm.ShowDialog();
+
+            }
+
         }
 
-     
+        public bool VerificarSiEsUnaActualizacion()
+        {
+            if (File.Exists("C:\\SGIUSER\\userUpdate.txt"))
+            {
+                string[] valores = LeerDatos("C:\\SGIUSER\\userUpdate.txt");
+                Constantes.Connection = Convert.ToInt32(valores[2]);
+                Constantes.SubSistema = Convert.ToInt32(valores[3]);
+                File.Delete("C:\\SGIUSER\\userUpdate.txt");
+
+                return true;
+            }
+            return false;
+        }
+
+        string[] LeerDatos(string ruta)
+        {
+            string Linea;
+            string[] Valores = null!;
+            if (File.Exists(ruta))
+            {
+                using (StreamReader lector = new StreamReader(ruta))
+                {
+                    Linea = lector.ReadLine()!;
+                    Valores = Linea.Split(",".ToCharArray());
+                }
+            }
+            return Valores;
+        }
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
@@ -87,10 +127,10 @@ namespace ActualizarSubSistemas
             {
                 Constantes.conneciones.Add(data.connection);
             });
-           
+
         }
 
-  
+
 
     }
 }

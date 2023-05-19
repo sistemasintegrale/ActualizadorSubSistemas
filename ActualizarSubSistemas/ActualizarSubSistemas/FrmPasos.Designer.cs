@@ -101,6 +101,7 @@
             this.tabControl.TabIndex = 0;
             this.tabControl.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.tabControl.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalBottom;
+            this.tabControl.TabMenuVisible = false;
             // 
             // tabSeleccionar
             // 
@@ -110,7 +111,7 @@
             this.tabSeleccionar.Location = new System.Drawing.Point(4, 4);
             this.tabSeleccionar.Name = "tabSeleccionar";
             this.tabSeleccionar.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSeleccionar.Size = new System.Drawing.Size(445, 115);
+            this.tabSeleccionar.Size = new System.Drawing.Size(562, 194);
             this.tabSeleccionar.TabIndex = 0;
             this.tabSeleccionar.Text = "Selecc";
             this.tabSeleccionar.UseVisualStyleBackColor = true;
