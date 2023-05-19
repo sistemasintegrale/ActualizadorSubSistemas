@@ -343,6 +343,31 @@ namespace Data
             {
                 using (SqlConnection con = new SqlConnection(Conneccion.GetConexion()))
                 {
+                    SqlCommand cm = new SqlCommand("EQUIPO_SUB_SISTEMA_MODIFICAR", con);
+                    cm.Parameters.AddWithValue("@IdEquipo", equiposSubSistema.IdEquipo);
+                    cm.Parameters.AddWithValue("@IdSubSistema", equiposSubSistema.IdSubSistema);
+                    cm.Parameters.AddWithValue("@Acceso", equiposSubSistema.Acceso);
+                    cm.Parameters.AddWithValue("@FechaActualizacion", equiposSubSistema.FechaActualizacion);
+                    cm.CommandType = CommandType.StoredProcedure;
+                    con.Open();
+                    cm.ExecuteNonQuery();
+
+
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public void EquipoSubSistemaModificarDarAcceso(EquiposSubSistema equiposSubSistema)
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(Conneccion.GetConexion()))
+                {
                     SqlCommand cm = new SqlCommand("EQUIPO_SUB_SISTEMA_MODIFICAR_ACCESO", con);
                     cm.Parameters.AddWithValue("@IdEquipo", equiposSubSistema.IdEquipo);
                     cm.Parameters.AddWithValue("@IdSistema", equiposSubSistema.IdSistema);

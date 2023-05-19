@@ -100,6 +100,11 @@ namespace Logic
             generalData.EquipoSubSistemaModificar(equiposSubSistema);
         }
 
+        public void EquipoSubSistemaModificarDarAcceso(EquiposSubSistema equiposSubSistema)
+        {
+            generalData.EquipoSubSistemaModificarDarAcceso(equiposSubSistema);
+        }
+
         public List<Sistema> SistemaListar()
         {
             return generalData.SistemaListar();
