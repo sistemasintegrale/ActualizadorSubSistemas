@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="ActualizarSubSistemas.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="ActualizarSubSistemas.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -62,22 +62,22 @@
       <dsig:DigestValue>+NVnT6lExfxPbyI7ciNUGjhJM1TVbFuw9XcgJISpTN0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ActualizarSubSistemas.dll" size="28160">
+  <file name="ActualizarSubSistemas.dll" size="27648">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>pyKhBeCFi1KXuYOo0b12z/Sfx9lsXdr8NhWeKbMgg38=</dsig:DigestValue>
+      <dsig:DigestValue>Y/JW4EteG1TxfbwwEAXC9sirVx9HnGcOGBNuDeTqN2w=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ActualizarSubSistemas.exe" size="147968">
+  <file name="ActualizarSubSistemas.exe" size="147456">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>vMOgez4VZSZBfap1qmN66sRUCrCYu8gYXvHIhdEIasQ=</dsig:DigestValue>
+      <dsig:DigestValue>3OXls+H8Hj/0k8f24SETTm2E3iEUeE8ATnXeH/CWAHE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ActualizarSubSistemas.runtimeconfig.json" size="441">
@@ -95,7 +95,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>kAyaeAp4ByTdMBKK3IWe/7MwdvnYJW+ACIKCGN7XqBk=</dsig:DigestValue>
+      <dsig:DigestValue>FjbUtcjaY0O/tmlDQHevLphZmHGNlAhIBiCtixYqQIM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Data.dll" size="12288">
@@ -104,7 +104,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>s6MyV9mczGnQXNZUxellw3UyKqrGCCV7YyeH2KE1VT0=</dsig:DigestValue>
+      <dsig:DigestValue>ImbWIUYhlophIJDYxsDXBqUEnA5o2h8CvIvflm/4jQI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Entity.dll" size="11264">
@@ -113,7 +113,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>tvCdFG/HLq7hZOaAuNJJsdz0a552qIoOwNV54v5jVnk=</dsig:DigestValue>
+      <dsig:DigestValue>uzre48BwD5K/pTXAND3ugGcYRMQPrwtLdVy1QWjP9wk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FontAwesome.Sharp.dll" size="762368">
@@ -140,7 +140,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>IUEdslAum7nHNI873eZb47t4jqIzDJO36ceNQlMIFPE=</dsig:DigestValue>
+      <dsig:DigestValue>tHcpdVASSasDoheHxc4n1l6oENqQFVJ+6XZL61n2k5E=</dsig:DigestValue>
     </hash>
   </file>
   <file name="MetroFramework.Design.dll" size="16896">
